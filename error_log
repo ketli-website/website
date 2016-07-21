@@ -1,0 +1,141 @@
+[28-Sep-2015 07:52:18 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/ketli/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/ketli/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/ketli/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/ketli/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(226): Facebook\Aut in /home/ketli/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[29-Sep-2015 12:25:34 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/ketli/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/ketli/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/ketli/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/ketli/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(226): Facebook\Aut in /home/ketli/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[29-Sep-2015 14:04:00 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/ketli/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/ketli/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/ketli/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/ketli/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(226): Facebook\Aut in /home/ketli/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[29-Sep-2015 14:04:56 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/ketli/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/ketli/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/ketli/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/ketli/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(226): Facebook\Aut in /home/ketli/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[30-Sep-2015 23:37:39 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/ketli/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/ketli/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/ketli/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/ketli/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/ketli/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(226): Facebook\Aut in /home/ketli/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[26-Oct-2015 10:21:14 UTC] PHP Fatal error:  Class 'Facebook\HttpClients\FacebookCurlHttpClient' not found in /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php on line 127
+[26-Oct-2015 10:21:28 UTC] PHP Fatal error:  Class 'Facebook\HttpClients\FacebookCurlHttpClient' not found in /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php on line 127
+[26-Oct-2015 10:21:45 UTC] PHP Fatal error:  Class 'Facebook\HttpClients\FacebookCurlHttpClient' not found in /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php on line 127
+[26-Oct-2015 10:25:51 UTC] PHP Fatal error:  Class 'Facebook\HttpClients\FacebookCurlHttpClient' not found in /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php on line 127
+[26-Oct-2015 10:27:42 UTC] PHP Fatal error:  Class 'Facebook\Url\FacebookUrlDetectionHandler' not found in /home/cradlfeed/public_html/facebook-sdk-v5/Helpers/FacebookRedirectLoginHelper.php on line 81
+[27-Oct-2015 07:41:32 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2C in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[10-Feb-2016 02:33:11 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2C in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[10-Feb-2016 02:38:19 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2C in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[07-Mar-2016 12:36:53 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2C in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[10-Mar-2016 21:24:44 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2C in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[26-Apr-2016 12:52:39 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2C in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[26-Apr-2016 12:53:03 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2C in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[02-May-2016 13:34:08 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2C in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[02-May-2016 13:36:05 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2C in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[02-May-2016 13:36:31 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2C in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[02-May-2016 13:36:38 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2C in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
+[06-Jun-2016 08:39:19 UTC] PHP Fatal error:  Uncaught exception 'Facebook\Exceptions\FacebookServerException' with message 'fb_exchange_token parameter not specified' in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php:105
+Stack trace:
+#0 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/cradlfeed/public_html/facebook-sdk-v5/FacebookClient.php(225): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/cradlfeed/public_html/facebook-sdk-v5/Authentication/OAuth2C in /home/cradlfeed/public_html/facebook-sdk-v5/Exceptions/FacebookResponseException.php on line 105
