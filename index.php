@@ -14,7 +14,7 @@ function showUser(str) {
     if (str == "") {
         document.getElementById("txtHint").innerHTML = "";
         return;
-    } else { 
+    } else {
         if (window.XMLHttpRequest) {
             // code for IE7+, Firefox, Chrome, Opera, Safari
             xmlhttp = new XMLHttpRequest();
@@ -49,7 +49,7 @@ echo '<div class="panel-body">
   <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#paper" aria-controls="paper" role="tab" data-toggle="tab">Test Paper</a></li>
     <li role="presentation"><a href="#assignment" aria-controls="assignment" role="tab" data-toggle="tab">Assignment</a></li>
-    
+
   </ul>';
 echo '<div class="tab-content">
     <div role="tabpanel" class="tab-pane active" id="paper" style="padding:10px"><p>
@@ -57,8 +57,8 @@ echo '<div class="tab-content">
  <div class="panel-body">
  <center><p class="title2"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>&nbsp;&nbsp;Test Paper</p></center>
  <hr>';
- 
- 
+
+
  echo '<form method="post" action="paper/log.php">
 
 <!--select category start-->
@@ -67,7 +67,7 @@ echo '<div class="tab-content">
 <select id="college" name="college_id" placeholder="Select College" class="form-control input-md" onchange="showUser(this.value)" required>
    <option value="">select college</option>
    ';
-  
+
    $q=mysqli_query($con,"SELECT * FROM college");
    while($row=mysqli_fetch_array($q))
    {
@@ -75,8 +75,8 @@ echo '<div class="tab-content">
    $college_name=$row['college_name'];
   echo '<option value="'.$college_id.'">'.$college_name.'</option>';
   }
- 
- echo ' </select>      
+
+ echo ' </select>
   </div>
   <div id="txtHint"><b>Branch info will be listed here...</b></div>
 <!--select categories end-->
@@ -87,9 +87,9 @@ echo '<div class="tab-content">
    <option value="2">II-Year</option>
    <option value="3">III-Year</option>
    <option value="4">IV-Year</option>
- 
-  </select>      
-  </div>  
+
+  </select>
+  </div>
 <!--select categories end-->
 
 
@@ -106,8 +106,8 @@ echo '<div class="tab-content">
  <div class="panel-body">
  <center><p class="title2"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>&nbsp;&nbsp;&nbsp;Assignment</p></center>
  <hr>';
- 
- 
+
+
  echo '<form method="post" action="assignment/">
 
 <!--select category start-->
@@ -116,7 +116,7 @@ echo '<div class="tab-content">
 <select id="college" name="college_id" placeholder="Select College" class="form-control input-md" onchange="showUser(this.value)" required>
    <option value="">Select College</option>
    ';
-  
+
    $q=mysqli_query($con,"SELECT * FROM college");
    while($row=mysqli_fetch_array($q))
    {
@@ -124,9 +124,9 @@ echo '<div class="tab-content">
    $college_name=$row['college_name'];
   echo '<option value="'.$college_id.'">'.$college_name.'</option>';
   }
- 
- echo ' </select>      
-  </div>  
+
+ echo ' </select>
+  </div>
   <div id="txtHint1"><b>Branch info will be listed here...</b></div>
 <!--select categories end-->
 <!--select category start-->
@@ -139,9 +139,9 @@ echo '<div class="tab-content">
    <option value="2">II-Year</option>
    <option value="3">III-Year</option>
    <option value="4">IV-Year</option>
- 
-  </select>      
-  </div>  
+
+  </select>
+  </div>
 <!--select categories end-->
 
 
@@ -155,9 +155,9 @@ echo '<div class="tab-content">
 </div>
   </div><!--panel end-->
   </div></div></div>';
- 
-?> 
-  
+
+?>
+
   <script type="text/javascript"> var infolinks_pid = 2576158; var infolinks_wsid = 0; </script> <script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
 
 </div>
@@ -165,8 +165,6 @@ echo '<div class="tab-content">
 <?php
 include('footer.php');
 include_once("analyticstracking.php");
-
 ?>
-
 </body>
 </html>
